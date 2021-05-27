@@ -6,7 +6,7 @@ to run the script, simply run
 scrapy runspider -o output.csv scrape_projects.py
 ```
 
-This site is perfect for crawling, because there are unique CSS classes for nearly field. For example, the institution name and location is
+This site is perfect for crawling, because there are unique CSS classes for nearly every field. For example, the institution name and location is
 
 ```css
 #block-views-block-facility-block-facility-address > div > div > div > div > div > span
