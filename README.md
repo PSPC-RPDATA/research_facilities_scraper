@@ -3,7 +3,7 @@ This project contains a script that scrapes this [research facilities](https://n
 to run the script, simply run
 
 ```bash
-scrapy runspider -o output.csv scrape_projects.py
+scrapy runspider --overwrite-ouput output.csv scrape_projects.py
 ```
 
 This site is perfect for crawling, because there are unique CSS classes for nearly every field. For example, the institution name and location is
